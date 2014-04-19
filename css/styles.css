@@ -1,0 +1,182 @@
+article, aside, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+section#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+section#posts {
+    display: block;
+    width: 75%;
+    max-width: 800px;
+    float: left;
+}
+
+article {
+    line-height: 150%;
+    border-color: #666666;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 3% / 30px;
+    box-shadow: 1px 1px 34px rgba(0,0,0,0.3);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+article h4 {
+    text-align: center;
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+article h3 {
+    margin-left: 10%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+article h3 a {
+    color: #000000;
+}
+
+.time {
+    margin-left: 10%;
+    font-size: 0.9em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.time a {
+    color: #000000;
+}
+
+.meta {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 20px;
+}
+
+.meta a {
+    text-decoration: none;
+    color: #000000;
+}
+
+article p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a:link, a:visited, a:active {
+    color: #000000;
+}
+
+a:hover {
+    color: #666666;
+}
+
+article ul {
+    margin-top: 50px;
+    margin-left: 0;
+    font-size: 0.8em;
+    color: #666666;
+    line-height: 25px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+article li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+article li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.listnav {
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+nav {
+    height: 20px;
+    margin: 0;
+}
+
+nav ul {
+    margin-right: 30px;
+    margin-top: 2px;
+    font-size: 0.9em;
+    color: #ffffff;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: right;
+    vertical-align: top;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 5px;
+    background-color: #333333;
+}
+
+nav li:first-child {
+    padding-left: 15px;
+}
+
+nav li:last-child {
+    padding-right: 15px;
+}
+
+nav a:link, nav a:active, nav a:visited, nav a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#logo {
+    background-image: url(../image/logo.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 100px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#logo a {
+    display: block;
+    width:100px;
+    height: 110px;
+    cursor: hand;
+}
+
+section#sidebar {
+    display: block;
+    float: left;
+    width: 20%;
+    max-width: 200px;
+}
+
+#space {
+    height: 30px;
+}

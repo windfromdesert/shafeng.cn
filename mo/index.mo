@@ -16,10 +16,7 @@
             <article>
                 <h2>沙风</h2>
                 <h4>My Life, Diary And Dream.</h4>
-                <h3><a href="./htm/3-nagging.htm">我的心依然迷惘</a></h3>
-<div class="time">written in 20011221. Tag:<a href="../archive/share.htm">闲言碎语</a></div><h3><a href="./htm/2-share.htm">VIM替换模式总结</a></h3>
-<div class="time">written in 20120909. Tag:<a href="../archive/share.htm">资源共享</a></div><h3><a href="./htm/1-share.htm">MongoDB and Python 学习笔记</a></h3>
-<div class="time">written in 20130226. Tag:<a href="../archive/share.htm">资源共享</a></div>
+                #INDEX#
             <div id="space"></div>
             </article>
             <nav>
